@@ -8,7 +8,7 @@ import { getRandomWord } from './lib/gameLogic';
 export default function Home() {
   return (
     <ThirdwebProvider
-      activeChain="mumbai"
+      activeChain="polygon"
       clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
       supportedWallets={[
         metamaskWallet(),
